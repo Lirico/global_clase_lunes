@@ -8,6 +8,8 @@ Todo se irá separando en secciones para que sea más fácil de encontrar.
 
 ## COMANDOS GIT
 
+- git init -> Inicializa git en un proyecto
+- git remote add origin <enlace-repo> -> Conectar el proyecto de la pc a un repo.
 - git clone <enlace-repo> -> Clona un proyecto del repo a la computadora.
 - git pull -> Actualiza una rama en la pc si recibio cambios en el repositorio.
 - git checkout <nombre-rama> -> Moverte a la rama <nombre-rama>
