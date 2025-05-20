@@ -18,3 +18,6 @@ Todo se irá separando en secciones para que sea más fácil de encontrar.
 - git add <nombre-archivo> -> Registrar tal archivo
 - git add . -> Registra todos los archivos y carpetas sin registrar
 - git commit -m "nombre commit" -> Crea un backup hasta donde esta registrado.
+- git log -> Revisar los commits generados.
+- git push origin <nombre-rama-origen> -> Enviar los cambios al repo desde rama origen
+- git push  -> Ennviar cambios al repo desde rama secundaria
