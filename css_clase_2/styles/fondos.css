@@ -1,0 +1,32 @@
+/* 
+    FONDOS
+*/
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSTPW9isVROzaRaWl2GNVVC3QHcCZ9uyWL5Q&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 75% 50%;
+}
+
+.filtro {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+
+    /* ESTO NO ES PARA HOY */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.filtro:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.filtro h3 {
+    font-size: 3.5rem;
+    color: white;
+}

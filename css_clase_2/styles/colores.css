@@ -1,0 +1,19 @@
+/* 
+    COLORES
+
+    Podemos colocarlos en diferentes formatos.
+
+    - rgb(valor, valor, valor) 0-255
+        -> Red Green Blue
+
+    - Hexadecimal -> 0 1 2 3 4 5 6 7 8 9 A B C D E F
+        -> #A3BCF0
+    - HSL (hue (matiz),Saturacion, Lightness (brillo))
+        ->  0 - 360   , 0 - 100% ,    0 - 100%
+*/
+
+/* div {
+    background-color: #F7A209;
+    width: 300px;
+    height: 300px;
+} */

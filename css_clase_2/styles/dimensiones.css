@@ -1,0 +1,88 @@
+/* 
+    DIMENSIONES
+
+    Son las medidas que podemos aplicar a texto, imagenes, videos,
+    o contenedor html.
+
+    -> ABSOLUTAS -> Tienen valor por si mismas
+        - pulgadas (inches)
+        - pixeles
+
+    -> RELATIVAS -> Depende de otra fuente de medida para tener valor
+        - porcentual -> 50% -> 20 kg
+        - viewports (alto, ancho) -> (vh (viewport height), vw(viewport width))
+        - rem
+        - em
+*/
+
+/* * {
+    margin: 0;
+} */
+
+/* div {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+span {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+} */
+
+
+/* .padre {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
+.hijo {
+    width: 25%;
+    height: 25%;
+    background-color: orange;
+} */
+
+/* .container {
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+}
+
+.eldeabajo {
+    height: 100vh;
+} */
+
+html {
+    font-size: 16px; /* 1 rem -> 16px */
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.25rem;
+}
+
+.rebelde {
+    font-size: 20px;
+}
+.rebelde h1 {
+    font-size: 2em;
+}
+.rebelde h2 {
+    font-size: 1.75em;
+}
+.rebelde h3 {
+    font-size: 1.5em;
+}
+.rebelde h4 {
+    font-size: 1.25em;
+}
