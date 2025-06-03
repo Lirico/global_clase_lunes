@@ -1,0 +1,31 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+/* 
+    BOX MODELING
+
+    Esta representador por las caracteristicas que definen una caja en CSS.
+        -> Contenido
+        -> Relleno (padding)
+        -> Borde
+        -> Margen (margin)
+*/
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    color: white;
+    margin: 50px;
+}
+.box2 {
+    width: 300px;
+    height: 300px;
+    background-color: purple;
+    color: white;
+}
+
