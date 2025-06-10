@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+/*********** CUSTOM PROPERTIES ***********/
+:root {
+    --primary-color: rgb(85, 164, 85);
+    --primary-alpha-color: rgba(85, 164, 85, 0.8);
+    --secondary-color: #785F44;
+    --white-color: #ffffff;
+    --primary-font: 'Poller One', cursive;
+}
+
+/*********** RESET ***********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px; /* El valor base de los REM */
+}
+body {
+    font-family: var(--primary-font);
+    overflow-x: hidden;
+    background-image: url("https://wallpapercave.com/wp/wp6850352.jpg");
+}
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/*********** UTILITES ***********/
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    line-height: 0;
+    font-family: var(--primary-font);
+    height: 3.3rem;
+    transition: 0.3s;
+    width: 200px;
+}
+.btn:hover {
+    background-color: var(--primary-alpha-color);
+}
+
+/*********** SITE STYLES ***********/
+.nav_container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    position: fixed;
+    width: 100%;
+    transition: 0.3s;
+
+    & .nav_logo {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+    & .nav_menu {
+        display: flex;
+        column-gap: 50px;
+
+        & a {
+            transition: 0.3s;
+        }
+
+        & a:hover {
+            color: var(--secondary-color);
+        }
+    }
+}
+.nav_active {
+    background-color: var(--primary-color);
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+
+    & h1 {
+        color: var(--white-color);
+        font-size: 5rem;
+        margin-bottom: 2rem;
+
+        & span {
+            color: var(--primary-color);
+        }
+    }
+}
+.vacia {
+    height: 100vh;
+    background-color: var(--white-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_logo > img {
+    width: 60px;
+}
