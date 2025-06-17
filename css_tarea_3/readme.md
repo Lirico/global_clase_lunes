@@ -23,7 +23,7 @@ de colores como en temática.
 - Para los iconos deberan utilizar la libreria Font Awsome: https://fontawesome.com/
 
 ## Fecha de entrega
-18/12/2024
+15/06/2024
 
 ## Nota:
 - Para clonar el repo **git clone "enlace al repo"**
